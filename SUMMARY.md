@@ -7,6 +7,10 @@
 * [Dropbox](upload-drivers/dropbox-driver.md)
 * [DigitalOcean](upload-drivers/digitalocean-driver.md)
 
+## Mail Drivers
+
+* [Sparkpost](mail-drivers/sparkpost.md)
+
 ## Contributing
 
 * [Contributing Guide](contributing/contributing-guide.md)
