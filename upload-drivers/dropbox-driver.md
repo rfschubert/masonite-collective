@@ -26,23 +26,23 @@ $ pip install masonite-dropbox-driver
 {% endcode-tabs-item %}
 {% endcode-tabs %}
 
-### Configuration
+## Dropbox Setup
 
-#### Dropbox
+### Creating an Application
 
-To upload files to your Dropbox we first need to create an **app** in the Dropbox Developers console. Head on over to [https://www.dropbox.com/developers/apps](https://www.dropbox.com/developers/apps). 
+You need to create an application for the driver to make API requests to Dropbox by going to [https://www.dropbox.com/developers/apps](https://www.dropbox.com/developers/apps) and creating an application.
 
-When you have click on the **Create app** button, you will be presented with the following screen
+![Create application](../.gitbook/assets/screen-shot-2018-10-05-at-13.24.11.png)
 
-![Create app](../.gitbook/assets/screen-shot-2018-10-05-at-13.24.11.png)
+### Obtaining an Access Token
 
-Fill out the details on the screen and give your **app** a name. 
-
-In the next step you're required to generate a token to authenticate your app with. Click on the **Generate** button located under the **Generate access token** label. You will need the access token in the next step to configure Masonite.
+All requests need to be made with an OAuth2 access token. To get started, once you’ve created an app, you can generate an access token for your own Dropbox account.
 
 ![Generate access token](../.gitbook/assets/screen-shot-2018-10-05-at-13.27.15.png)
 
-#### Masonite
+## Masonite Setup
+
+### Environment
 
 Paste the access token in your project's `.env` file along with the folder name where you want your uploads to be saved.
 
@@ -54,6 +54,8 @@ DROPBOX_FOLDER=/Jake/
 ```
 {% endcode-tabs-item %}
 {% endcode-tabs %}
+
+### Service Provider
 
 Add the _**DropboxProvider**_ to _**PROVIDERS**_ in the `config/providers.py` file.
 
