@@ -14,6 +14,18 @@ In order to use the Dropbox upload driver, you'll need:
 * Masonite 2.0+
 * boto3
 
+## Getting Started
+
+### Installation
+
+{% code-tabs %}
+{% code-tabs-item title="terminal" %}
+```bash
+$ pip install masonite-digitalocean-driver
+```
+{% endcode-tabs-item %}
+{% endcode-tabs %}
+
 ## Masonite Setup
 
 ### Environment
