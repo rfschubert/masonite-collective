@@ -39,7 +39,7 @@ Add the _**DigitalOceanProvider**_ to _**PROVIDERS**_ in the `config/providers.p
 {% code-tabs %}
 {% code-tabs-item title="config/providers.py" %}
 ```python
-from masonite.contrib.dropbox.providers import DigitalOceanProvider
+from masonite.contrib.digitalocean.providers import DigitalOceanProvider
 
 PROVIDERS = [
     # Third Party Providers
