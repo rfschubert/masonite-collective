@@ -2,7 +2,7 @@
 
 {% hint style="info" %}
 **Github** [https://github.com/bjorntheart/masonite-dropbox-driver](https://github.com/bjorntheart/masonite-dropbox-driver)  
-**Pypi** [https://pypi.org/project/masonite-dropbox-driver](https://pypi.org/project/masonite-dropbox-driver)
+**Pypi**     [https://pypi.org/project/masonite-dropbox-driver](https://pypi.org/project/masonite-dropbox-driver)
 {% endhint %}
 
 ## Requirements
@@ -38,13 +38,13 @@ When you have click on the **Create app** button, you will be presented with the
 
 Fill out the details on the screen and give your **app** a name. 
 
-In the next step you're required to generate a token to authenticate your app with. Click on the **Generate** button. You need the access token in the next step to configure Masonite.
+In the next step you're required to generate a token to authenticate your app with. Click on the **Generate** button located under the **Generate access token** label. You will need the access token in the next step to configure Masonite.
 
 ![Generate access token](../.gitbook/assets/screen-shot-2018-10-05-at-13.27.15.png)
 
 #### Masonite
 
-Paste the access token in your project's .env file along with the folder name you want your uploads to be saved to
+Paste the access token in your project's `.env` file along with the folder name where you want your uploads to be saved.
 
 {% code-tabs %}
 {% code-tabs-item title=".env" %}
@@ -55,7 +55,7 @@ DROPBOX_FOLDER=/Jake/
 {% endcode-tabs-item %}
 {% endcode-tabs %}
 
-Add the _DropboxProvider_ to _PROVIDERS_ in the `config/providers.py` file.
+Add the _**DropboxProvider**_ to _**PROVIDERS**_ in the `config/providers.py` file.
 
 {% code-tabs %}
 {% code-tabs-item title="config/providers.py" %}
