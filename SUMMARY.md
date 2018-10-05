@@ -2,9 +2,10 @@
 
 * [Introduction](README.md)
 
-## Packages
+## Upload Drivers
 
-* [Dropbox Driver](packages/dropbox-driver.md)
+* [Dropbox](upload-drivers/dropbox-driver.md)
+* [DigitalOcean](upload-drivers/digitalocean-driver.md)
 
 ## Contributing
 
