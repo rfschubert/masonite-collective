@@ -32,6 +32,29 @@ $ pip install masonite-sparkpost-driver
 
 Paste the access token in your project's `.env` file along with the folder name where you want your uploads to be saved.
 
+Set the default mail driver to **sparkpost**
+
+{% code-tabs %}
+{% code-tabs-item title=".env" %}
+```text
+MAIL_DRIVER=sparkpost
+```
+{% endcode-tabs-item %}
+{% endcode-tabs %}
+
+To use Sparkpost in _sandbox mode_, use the following settings
+
+{% code-tabs %}
+{% code-tabs-item title=".env" %}
+```text
+APP_DEBUG=True
+MAIL_FROM_ADDRESS=anything@sparkpostbox.com
+```
+{% endcode-tabs-item %}
+{% endcode-tabs %}
+
+Obtain an API key form your Sparkpost dashboard and set it in your `.env` file
+
 {% code-tabs %}
 {% code-tabs-item title=".env" %}
 ```text
@@ -64,8 +87,7 @@ PROVIDERS = [
 ```python
 class ActivityController:
 
-    def show(self, MailManager):
-        MailManager.driver('sparkpost')
+    def show(self, Mail):
         Mail.to('hello@email.com').send('Welcome!')
 ```
 {% endcode-tabs-item %}
