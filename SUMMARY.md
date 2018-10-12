@@ -4,8 +4,10 @@
 
 ## Upload Drivers
 
-* [Dropbox](upload-drivers/dropbox-driver.md)
+* [Azure](upload-drivers/azure-driver.md)
 * [DigitalOcean](upload-drivers/digitalocean-driver.md)
+* [Dropbox](upload-drivers/dropbox-driver.md)
+* [Rackspace](upload-drivers/rackspace-driver.md)
 
 ## Mail Drivers
 
