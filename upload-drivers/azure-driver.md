@@ -2,7 +2,7 @@
 
 {% hint style="info" %}
 **Github** [https://github.com/josephmancuso/masonite-azure-driver](https://github.com/josephmancuso/masonite-azure-driver)  
-**Pypi**     [https://pypi.org/project/masonite-azure-driver/](https://pypi.org/project/masonite-azure-driver/)
+**Pypi** [https://pypi.org/project/masonite-azure-driver/](https://pypi.org/project/masonite-azure-driver/)
 {% endhint %}
 
 ## Requirements {#requirements}
@@ -76,3 +76,4 @@ class ActivityController:
 ```
 {% endcode-tabs-item %}
 {% endcode-tabs %}
+

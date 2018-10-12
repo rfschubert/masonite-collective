@@ -2,7 +2,7 @@
 
 {% hint style="info" %}
 **Github** [https://github.com/josephmancuso/masonite-rackspace-driver](https://github.com/josephmancuso/masonite-rackspace-driver)  
-**Pypi**     [https://pypi.org/project/masonite-rackspace-driver/](https://pypi.org/project/masonite-rackspace-driver/)
+**Pypi** [https://pypi.org/project/masonite-rackspace-driver/](https://pypi.org/project/masonite-rackspace-driver/)
 {% endhint %}
 
 ## Requirements {#requirements}
@@ -76,3 +76,4 @@ class ActivityController:
 ```
 {% endcode-tabs-item %}
 {% endcode-tabs %}
+

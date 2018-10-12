@@ -2,7 +2,7 @@
 
 {% hint style="info" %}
 **Github** [https://github.com/bjorntheart/masonite-digitalocean-driver](https://github.com/bjorntheart/masonite-digitalocean-driver)  
-**Pypi**     [https://pypi.org/project/masonite-digitalocean-driver](https://pypi.org/project/masonite-digitalocean-driver/)
+**Pypi** [https://pypi.org/project/masonite-digitalocean-driver](https://pypi.org/project/masonite-digitalocean-driver/)
 {% endhint %}
 
 ## Requirements {#requirements}

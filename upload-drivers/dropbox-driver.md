@@ -2,7 +2,7 @@
 
 {% hint style="info" %}
 **Github** [https://github.com/bjorntheart/masonite-dropbox-driver](https://github.com/bjorntheart/masonite-dropbox-driver)  
-**Pypi**     [https://pypi.org/project/masonite-dropbox-driver](https://pypi.org/project/masonite-dropbox-driver)
+**Pypi** [https://pypi.org/project/masonite-dropbox-driver](https://pypi.org/project/masonite-dropbox-driver)
 {% endhint %}
 
 ## Requirements
