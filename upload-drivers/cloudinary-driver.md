@@ -42,6 +42,24 @@ CLOUDINARY_APIKEY=34893457863428957485894375
 {% endcode-tabs-item %}
 {% endcode-tabs %}
 
+### Storage Config
+Paste this in `config/storage.py` inside `DRIVERS` dict.
+
+{% code-tabs %}
+{% code-tabs-item title="config/storage.py" %}
+```python
+
+DRIVERS = {
+    'cloudinary': {
+        'cloud_name': env('CLOUDINARY_NAME'),
+        'secret': env('CLOUDINARY_SECRET'),
+        'api_key': env('CLOUDINARY_APIKEY')
+    },
+}
+```
+{% endcode-tabs-item%}
+{% endcode-tabs %}
+
 ### Service Provider
 
 Add the _**CloudinaryProvider**_ to _**PROVIDERS**_ in the `config/providers.py` file.
