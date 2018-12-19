@@ -8,6 +8,7 @@
 * [DigitalOcean](upload-drivers/digitalocean-driver.md)
 * [Dropbox](upload-drivers/dropbox-driver.md)
 * [Rackspace](upload-drivers/rackspace-driver.md)
+* [Cloudinary](upload-drivers/cloudinary-driver.md)
 
 ## Mail Drivers
 

@@ -10,6 +10,8 @@
 
 {% page-ref page="upload-drivers/rackspace-driver.md" %}
 
+{% page-ref page="upload-drivers/cloudinary-driver.md" %}
+
 ## Mail Drivers
 
 {% page-ref page="mail-drivers/sparkpost.md" %}
