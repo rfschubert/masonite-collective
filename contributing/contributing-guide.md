@@ -1,4 +1,2 @@
 # Contributing Guide
 
-
-

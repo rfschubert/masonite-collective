@@ -5,7 +5,7 @@
 **Pypi** [https://pypi.org/project/masonite-cloudinary-driver/](https://pypi.org/project/masonite-cloudinary-driver/)
 {% endhint %}
 
-## Requirements {#requirements}
+## Requirements <a id="requirements"></a>
 
 In order to use the Cloudinary upload driver, you'll need:
 
@@ -43,12 +43,12 @@ CLOUDINARY_APIKEY=34893457863428957485894375
 {% endcode-tabs %}
 
 ### Storage Config
+
 Paste this in `config/storage.py` inside `DRIVERS` dict.
 
 {% code-tabs %}
 {% code-tabs-item title="config/storage.py" %}
 ```python
-
 DRIVERS = {
     'cloudinary': {
         'cloud_name': env('CLOUDINARY_NAME'),
@@ -57,7 +57,7 @@ DRIVERS = {
     },
 }
 ```
-{% endcode-tabs-item%}
+{% endcode-tabs-item %}
 {% endcode-tabs %}
 
 ### Service Provider
@@ -82,7 +82,6 @@ PROVIDERS = [
 {% code-tabs %}
 {% code-tabs-item title="ActivityController.py" %}
 ```python
-
 from masonite import Upload
 from masonite.request import Request
 

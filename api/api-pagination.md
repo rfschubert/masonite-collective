@@ -1,4 +1,4 @@
-# API Pagination
+# Pagination
 
 {% hint style="info" %}
 **Github** [https://github.com/rfschubert/masonite-api-pagination](https://github.com/rfschubert/masonite-api-pagination)  
@@ -6,7 +6,7 @@
 **Pypi** [https://pypi.org/project/masonite-api-pagination/](https://pypi.org/project/masonite-api-pagination/)
 {% endhint %}
 
-## Requirements {#requirements}
+## Requirements <a id="requirements"></a>
 
 In order to use the Azure upload driver, you'll need:
 
@@ -52,10 +52,9 @@ class UserResource(PaginatedResource, JSONSerializer):
 {% endcode-tabs-item %}
 {% endcode-tabs %}
 
-And that`s it! You are up and running!
+And that\`s it! You are up and running!
 
-Now when you do a request to your endpoint, you will receive a response like this:
-![img03](https://i.imgur.com/GtVl8Z5.png)
+Now when you do a request to your endpoint, you will receive a response like this: ![img03](https://i.imgur.com/GtVl8Z5.png)
 
 If you want to learn more, visit the `Wiki` page of `masonite-api-pagination` on Github to learn about filters and more.
 
@@ -64,3 +63,4 @@ If you want to learn more, visit the `Wiki` page of `masonite-api-pagination` on
 **API Pagination Wiki** [https://github.com/rfschubert/masonite-api-pagination/wiki](https://github.com/rfschubert/masonite-api-pagination/wiki)  
 **Pypi** [https://pypi.org/project/masonite-api-pagination/](https://pypi.org/project/masonite-api-pagination/)
 {% endhint %}
+

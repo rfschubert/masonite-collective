@@ -1,4 +1,2 @@
 # How To Contribute
 
-
-

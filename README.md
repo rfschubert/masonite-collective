@@ -16,6 +16,7 @@
 
 {% page-ref page="mail-drivers/sparkpost.md" %}
 
-## API Pagination
+## API
 
 {% page-ref page="api/api-pagination.md" %}
+
