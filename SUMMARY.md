@@ -20,6 +20,5 @@
 
 ## Contributing
 
-* [Contributing Guide](contributing/contributing-guide.md)
 * [How To Contribute](contributing/how-to-contribute.md)
 
