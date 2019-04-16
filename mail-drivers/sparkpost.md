@@ -1,7 +1,7 @@
 # Sparkpost
 
 {% hint style="info" %}
-**Github** [https://github.com/bjorntheart/masonite-sparkpost-driver](https://github.com/bjorntheart/masonite-sparkpost-driver)  
+**Github** [https://github.com/rfschubert/masonite-sparkpost-driver](https://github.com/rfschubert/masonite-dropbox-driver)  
 **Pypi** [https://pypi.org/project/masonite-sparkpost-driver](https://pypi.org/project/masonite-sparkpost-driver/)
 {% endhint %}
 
