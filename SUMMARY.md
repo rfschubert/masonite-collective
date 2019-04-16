@@ -14,6 +14,10 @@
 
 * [Sparkpost](mail-drivers/sparkpost.md)
 
+## API
+
+* [Pagination](api/api-pagination.md)
+
 ## Contributing
 
 * [Contributing Guide](contributing/contributing-guide.md)
